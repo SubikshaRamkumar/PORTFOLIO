@@ -1,0 +1,131 @@
+
+
+
+  /* Split the screen in half */
+.split {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+   
+    width: 24%;
+    left: 0;
+    float:left;
+    /* background-color: palevioletred; */
+    /* background: #E8CBC0;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #636FA4, #E8CBC0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("https://images.pexels.com/photos/191240/pexels-photo-191240.jpeg?cs=srgb&dl=pexels-fernando-arcos-191240.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+/* Control the right side */
+.right {
+        
+      width: 70%;
+    right: 0;
+    float:right;
+    background-color: violet;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjCBoJPQUpnivb1j_Yqx39iUoz1CTSIklEkDd5Igm&s"); 
+    background-repeat: no-repeat; 
+    background-size :cover ;
+    opacity: 0.8;
+   /* background: #BA5370;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #F4E2D8, #BA5370); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+   
+    
+
+   
+
+    
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+      
+    
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 250px;
+   
+    margin-left: -70px;
+    border-radius: 50%;
+    /* border: 5px solid #555; */
+  
+    /* outline: 10px solid red;  --- */ 
+    outline: 10px solid;
+    animation: mymove 3s infinite;
+
+  }
+  @keyframes mymove {
+    /* 50% {outline-color: blue;}  --- */
+    from {outline-color: rgb(214, 86, 114);}
+    to {outline-color: rgb(140, 119, 189);}
+  }
+  .buttons
+  {
+   margin-left: -50px;
+  }
+  #h
+  {
+    border-color: #BA5370;
+    border-radius: 40%;
+    border-width: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 10px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h2{
+    font-size: large;
+    color: #BA5370  ;
+  }
+
+  #field
+  {
+    border-color: orangered;
+    float:inli
+  }
+  body{
+    color: azure;
+  }
+  h1{
+      color: orangered;
+      animation: mymovee 3s infinite;
+      
+  }
+  @keyframes mymovee {
+    50% {text-shadow: 0px 0px 30px orangered;}
+  }
+  /* #myDIV {
+    width: 300px;
+    height: 200px;
+    outline: 15px solid red;
+    animation: mymove 5s infinite;
+  } */
+  
+  
+
+  
